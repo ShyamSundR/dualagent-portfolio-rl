@@ -1,0 +1,12 @@
+datetime
+gym
+hmmlearn
+matplotlib
+numpy
+os
+pandas
+seaborn
+stable_baselines3
+torch
+yfinance
+pyfolio
