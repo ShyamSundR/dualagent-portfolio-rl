@@ -2,7 +2,7 @@
 
 The dual-agent reinforcement learning (RL) architecture used in this project is intended to optimize portfolios across S&P 500 stocks and cryptocurrencies (BTC, ETH). The structure is made up of:
 The PPO-based strategic agent maximizes long-term risk-adjusted returns.
-A DQN-based tactical agent that takes advantage of transient volatility patterns
+A DQN-based tactical agent that takes advantage of transient volatility patterns.
 
 Through a differentiable auction mechanism, the agents work together to enable dynamic risk budgeting in response to changing market regimes. Cross-market correlation modeling, market regime detection with HMMs, and thorough feature engineering are all included in the project.
 
