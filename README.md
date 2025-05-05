@@ -8,7 +8,8 @@ Through a differentiable auction mechanism, the agents work together to enable d
 
 
 ## Files
-	•	Datapreprocess.ipynb Complete data preprocessing pipeline. Downloads historical market data (S&P 500, BTC, ETH), calculates rolling features (returns, volatility, correlation), detects market regimes using HMM, and saves the aligned dataset in Parquet format. Also generates visualizations for EDA.
+	•	requirements.txt All the requriements for running the notebooks
+ 	•	Datapreprocess.ipynb Complete data preprocessing pipeline. Downloads historical market data (S&P 500, BTC, ETH), calculates rolling features (returns, volatility, correlation), detects market regimes using HMM, and saves the aligned dataset in Parquet format. Also generates visualizations for EDA.
  	•	Risk Parity.ipynb Implements riskparity one of the baselines
 	•	SinglePPO.ipynb Implements a single-agent PPO baseline model 
 	•	DualAgentFinal.ipynb Main training notebook that implements the proposed dual-agent reinforcement learning
